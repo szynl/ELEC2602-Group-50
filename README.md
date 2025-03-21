@@ -1,17 +1,17 @@
 # ELEC2602 Group 50
 
 ## Essential (50%)
-### Quizzes (Individual, completed during a lab session)
+### Quizzes
 * must score 80% or more on 3 quizzes
 * short Canvas quiz on Logic Gates/Simplification (Week 4 onwards)
 * short Canvas quiz on Flip-flops, Registers, Simple Datapaths (Week 6 onwards)
 * short quiz on FSM design (Week 9 onwards)
 
-### Lab tests (individual)
+### Lab tests
 * ~~basic combinational logic design in Verilog (Week 3 onwards)~~
 * basic FSM implementation in Verilog (Week 7 onwards)
 
-### Lab Completion (team of 3)
+### Lab completion
 * exercise 2 (after passing basic lab test)
   * ~~part 1~~
   * ~~part 2~~
@@ -27,8 +27,8 @@
 ### Project
 * implementation of basic processor (as described in lecture) working in simulation
 
-## Extension (Up to 12%)
-### Lab Completion (team of 3)
+## Extension (up to 12%)
+### Lab completion
 * all exercises
 
 ### Project extension goals met (TBC)
@@ -37,7 +37,7 @@
 * load/store from memory
 * using a program counter
 
-## Advanced (Up to 3%)
+## Advanced (up to 3%)
 ### Advanced Project
 * goals such as high-frequency design, parallelism, complex custom instructions
 
