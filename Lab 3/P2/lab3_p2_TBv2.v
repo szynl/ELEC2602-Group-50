@@ -11,7 +11,7 @@ module lab3_p2_TBv2;
 	reg [3:0] input_binary;
 	wire [6:0] output_7seg1, output_7seg2;
 	
-	lab3_p2_v2 instantiate_lab3_p2_v2(.v(input_binary), .d1(output_7seg1), .d2(output_7seg2));
+	lab3_p2_v2 instantiate_lab3_p2_v2(.v(input_binary), .d1(output_7seg1), .d2(out));
  	
 	initial begin 
 		count = 4'b0000;

@@ -1,0 +1,228 @@
+$date
+	Thu Mar 27 16:27:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module lab3_p3_TB $end
+$var wire 4 ! s [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$var reg 4 & count [3:0] $end
+$scope module fourBit_FA0 $end
+$var wire 4 ' a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 1 % cin $end
+$var wire 4 ) s [3:0] $end
+$var wire 1 " cout $end
+$var wire 1 * carry3 $end
+$var wire 1 + carry2 $end
+$var wire 1 , carry1 $end
+$scope module fa0 $end
+$var wire 1 - a $end
+$var wire 1 . b $end
+$var wire 1 % cin $end
+$var wire 2 / sum [1:0] $end
+$var wire 1 0 s $end
+$var wire 1 , cout $end
+$upscope $end
+$scope module fa1 $end
+$var wire 1 1 a $end
+$var wire 1 2 b $end
+$var wire 1 , cin $end
+$var wire 2 3 sum [1:0] $end
+$var wire 1 4 s $end
+$var wire 1 + cout $end
+$upscope $end
+$scope module fa2 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 + cin $end
+$var wire 2 7 sum [1:0] $end
+$var wire 1 8 s $end
+$var wire 1 * cout $end
+$upscope $end
+$scope module fa3 $end
+$var wire 1 9 a $end
+$var wire 1 : b $end
+$var wire 1 * cin $end
+$var wire 2 ; sum [1:0] $end
+$var wire 1 < s $end
+$var wire 1 " cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0<
+b0 ;
+0:
+09
+08
+b0 7
+06
+05
+04
+b0 3
+02
+01
+00
+b0 /
+0.
+0-
+0,
+0+
+0*
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#50000
+b1 !
+b1 )
+10
+b1 /
+1.
+b1 $
+b1 (
+b1 &
+#100000
+14
+b1 3
+1,
+b10 !
+b10 )
+00
+b10 /
+1-
+b1 #
+b1 '
+b10 &
+#150000
+04
+b100 !
+b100 )
+18
+0,
+b1 7
+1+
+0.
+12
+b0 /
+0-
+b10 3
+11
+b10 $
+b10 (
+b10 #
+b10 '
+b11 &
+#200000
+b110 !
+b110 )
+14
+b11 3
+1,
+1.
+b10 /
+1-
+b11 $
+b11 (
+b11 #
+b11 '
+b100 &
+#250000
+08
+04
+b1000 !
+b1000 )
+1<
+0+
+0,
+b1 ;
+1*
+0.
+02
+16
+b0 /
+0-
+b0 3
+01
+b10 7
+15
+b100 $
+b100 (
+b100 #
+b100 '
+b101 &
+#300000
+b1010 !
+b1010 )
+14
+b1 3
+1,
+1.
+b10 /
+1-
+b101 $
+b101 (
+b101 #
+b101 '
+b110 &
+#350000
+04
+b1100 !
+b1100 )
+18
+0,
+b11 7
+1+
+0.
+12
+b0 /
+0-
+b10 3
+11
+b110 $
+b110 (
+b110 #
+b110 '
+b111 &
+#400000
+0<
+b0 !
+b0 )
+08
+b0 ;
+0*
+0+
+02
+06
+b0 3
+01
+b0 7
+05
+b0 $
+b0 (
+b0 #
+b0 '
+b1000 &
+#450000
+b1001 &
+#500000
+b1010 &
