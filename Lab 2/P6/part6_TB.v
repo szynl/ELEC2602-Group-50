@@ -30,10 +30,21 @@ module part6_TB;
 	always @(count) begin
 		case (count)
 		4'b0000 : begin S = 2'b00; U = 2'b00; V = 2'b01; W = 2'b10; X = 2'b11; end
-		// Add other relevant test cases and complete default case
-		default : begin ... end
+		4'b0001 : begin S = 2'b01; U = 2'b00; V = 2'b01; W = 2'b10; X = 2'b11; end
+		4'b0010 : begin S = 2'b10; U = 2'b00; V = 2'b01; W = 2'b10; X = 2'b11; end
+		4'b0011 : begin S = 2'b11; U = 2'b00; V = 2'b01; W = 2'b10; X = 2'b11; end
+		default : begin S = 2'b00; U = 2'b00; V = 2'b00; W = 2'b00; X = 2'b00; end
+
+
 	endcase
 	end
 
+    initial begin
+        // Initialize VCD dump
+        $dumpfile("testbench.vcd");
+        $dumpvars(0, part6_TB);
+        
+        #500 $finish;
+    end
  
 endmodule
