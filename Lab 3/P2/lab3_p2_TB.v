@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
  
-module lab3_p1_TB;
+module lab3_p2_TB;
  
 	// ------------------ Instantiate module ------------------
 	// We are instantiating the module mux2, naming it instantiate_mux2.
@@ -9,8 +9,9 @@ module lab3_p1_TB;
  
 	reg [3:0] count;
 	reg [3:0] input_binary;
-	wire [6:0] output_7seg;
-	binary_to_7Seg instantiate_bto7seg(.binary(input_binary),.sevenSeg(output_7seg));
+	wire [6:0] output_7seg1, output_7seg2;
+	
+	lab3_p2_v1 instantiate_lab3_p2_v1(.v(input_binary), .d1(output_7seg1), .d2(output_7seg2));
  	
 	initial begin 
 		count = 4'b0000;
@@ -26,6 +27,10 @@ module lab3_p1_TB;
 		4'b0000 : begin input_binary = 4'b0000; end
 		4'b0001 : begin input_binary = 4'b0101; end
 		4'b0010 : begin input_binary = 4'b1010; end
+		4'b0011 : begin input_binary = 4'b1011; end
+		4'b0100 : begin input_binary = 4'b1100; end
+		4'b0101 : begin input_binary = 4'b1101; end
+		4'b0110 : begin input_binary = 4'b1110; end
 		default : begin input_binary = 4'b0011; end
 	endcase
 	end
@@ -33,10 +38,9 @@ module lab3_p1_TB;
     initial begin
         // Initialize VCD dump
         $dumpfile("testbench.vcd");
-        $dumpvars(0, lab3_p1_TB);
+        $dumpvars(0, lab3_p2_TB);
         
         #500 $finish;
     end
-
  
 endmodule

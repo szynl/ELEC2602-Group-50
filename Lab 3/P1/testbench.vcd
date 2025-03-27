@@ -1,0 +1,62 @@
+$date
+	Thu Mar 27 15:08:26 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module lab3_p1_TB $end
+$var wire 7 ! output_7seg [6:0] $end
+$var reg 4 " count [3:0] $end
+$var reg 4 # input_binary [3:0] $end
+$scope module instantiate_bto7seg $end
+$var wire 4 $ binary [3:0] $end
+$var reg 7 % sevenSeg [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1000000 %
+b0 $
+b0 #
+b0 "
+b1000000 !
+$end
+#50000
+b10010 !
+b10010 %
+b101 #
+b101 $
+b1 "
+#100000
+b1111111 !
+b1111111 %
+b1010 #
+b1010 $
+b10 "
+#150000
+b110000 !
+b110000 %
+b11 #
+b11 $
+b11 "
+#200000
+b100 "
+#250000
+b101 "
+#300000
+b110 "
+#350000
+b111 "
+#400000
+b1000 "
+#450000
+b1001 "
+#500000
+b1010 "
