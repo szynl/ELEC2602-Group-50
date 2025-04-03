@@ -1,0 +1,85 @@
+$date
+	Thu Apr  3 13:00:21 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module lab4_part1_TB $end
+$var wire 1 ! Qout $end
+$var wire 1 " Qnotout $end
+$var reg 1 # Clkin $end
+$var reg 1 $ Rin $end
+$var reg 1 % Sin $end
+$var reg 4 & count [3:0] $end
+$scope module instantiate_gated_RS $end
+$var wire 1 ! Q $end
+$var wire 1 ' Qa $end
+$var wire 1 ( Qb $end
+$var wire 1 " Qnot $end
+$var wire 1 $ R $end
+$var wire 1 ) R_g $end
+$var wire 1 % S $end
+$var wire 1 * S_g $end
+$var wire 1 # clk $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1*
+1)
+x(
+x'
+b0 &
+0%
+0$
+0#
+x"
+x!
+$end
+#50000
+b1 &
+#100000
+b10 &
+#150000
+b11 &
+#200000
+b100 &
+1#
+#250000
+0!
+0'
+1"
+1(
+0)
+1$
+b101 &
+#300000
+1)
+0$
+b110 &
+0#
+#350000
+b111 &
+#400000
+b1000 &
+1#
+#450000
+0"
+0(
+1!
+1'
+0*
+1%
+b1001 &
+#500000
+1*
+0%
+b1010 &
+0#

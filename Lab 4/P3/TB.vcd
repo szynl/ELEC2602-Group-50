@@ -1,0 +1,78 @@
+$date
+	Thu Apr  3 13:17:31 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module lab4_part3_TB $end
+$var reg 1 ! Clkin $end
+$var reg 1 " Din $end
+$var reg 4 # count [3:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 #
+0"
+0!
+$end
+#50000
+b1 #
+#100000
+b10 #
+#150000
+b11 #
+#200000
+1"
+b100 #
+1!
+#250000
+b101 #
+#300000
+b110 #
+0!
+#350000
+b111 #
+#400000
+b1000 #
+1!
+#450000
+0"
+b1001 #
+#500000
+b1010 #
+0!
+#550000
+b1011 #
+#600000
+1"
+b1100 #
+1!
+#650000
+0"
+b1101 #
+#700000
+b1110 #
+0!
+#750000
+b1111 #
+#800000
+b0 #
+1!
+#850000
+b1 #
+#900000
+b10 #
+0!
+#950000
+b11 #
+#1000000
+1"
+b100 #
+1!

@@ -1,0 +1,235 @@
+$date
+	Thu Apr  3 13:09:33 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module lab4_part2_TB $end
+$var wire 1 ! Qout $end
+$var wire 1 " Qnotout $end
+$var reg 1 # Clkin $end
+$var reg 1 $ Din $end
+$var reg 4 % count [3:0] $end
+$scope module instantiate_gated_DLatch $end
+$var wire 1 $ D $end
+$var wire 1 # clk $end
+$var wire 1 " Qnot $end
+$var wire 1 ! Q $end
+$scope module gated_RS_1 $end
+$var wire 1 ! Q $end
+$var wire 1 & Qa $end
+$var wire 1 ' Qb $end
+$var wire 1 " Qnot $end
+$var wire 1 ( R $end
+$var wire 1 ) R_g $end
+$var wire 1 $ S $end
+$var wire 1 * S_g $end
+$var wire 1 # clk $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1*
+1)
+1(
+x'
+x&
+b0 %
+0$
+0#
+x"
+x!
+$end
+#50000
+b1 %
+#100000
+b10 %
+#150000
+b11 %
+#200000
+1!
+1&
+0"
+0'
+0*
+0(
+1)
+1$
+b100 %
+1#
+#250000
+b101 %
+#300000
+1*
+b110 %
+0#
+#350000
+b111 %
+#400000
+0*
+b1000 %
+1#
+#450000
+0!
+0&
+1"
+1'
+0)
+1*
+1(
+0$
+b1001 %
+#500000
+1)
+b1010 %
+0#
+#550000
+b1011 %
+#600000
+0"
+0'
+1!
+1&
+0*
+0(
+1)
+1$
+b1100 %
+1#
+#650000
+0!
+0&
+1"
+1'
+0)
+1*
+1(
+0$
+b1101 %
+#700000
+1)
+b1110 %
+0#
+#750000
+b1111 %
+#800000
+0)
+b0 %
+1#
+#850000
+b1 %
+#900000
+1)
+b10 %
+0#
+#950000
+b11 %
+#1000000
+0"
+0'
+1!
+1&
+0*
+0(
+1)
+1$
+b100 %
+1#
+#1050000
+b101 %
+#1100000
+1*
+b110 %
+0#
+#1150000
+b111 %
+#1200000
+0*
+b1000 %
+1#
+#1250000
+0!
+0&
+1"
+1'
+0)
+1*
+1(
+0$
+b1001 %
+#1300000
+1)
+b1010 %
+0#
+#1350000
+b1011 %
+#1400000
+0"
+0'
+1!
+1&
+0*
+0(
+1)
+1$
+b1100 %
+1#
+#1450000
+0!
+0&
+1"
+1'
+0)
+1*
+1(
+0$
+b1101 %
+#1500000
+1)
+b1110 %
+0#
+#1550000
+b1111 %
+#1600000
+0)
+b0 %
+1#
+#1650000
+b1 %
+#1700000
+1)
+b10 %
+0#
+#1750000
+b11 %
+#1800000
+0"
+0'
+1!
+1&
+0*
+0(
+1)
+1$
+b100 %
+1#
+#1850000
+b101 %
+#1900000
+1*
+b110 %
+0#
+#1950000
+b111 %
+#2000000
+0*
+b1000 %
+1#
