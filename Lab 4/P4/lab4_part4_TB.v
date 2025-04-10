@@ -30,9 +30,9 @@ module lab4_part4_TB;
 	end
 	
 	always begin
-		#100
+		#50
 		Clkin = 1'b0;
-		#100
+		#50
 		Clkin = 1'b1;
 	end	
 
@@ -40,21 +40,21 @@ module lab4_part4_TB;
 	always @(count) begin
 		case (count)
 		4'b0000 : begin Din = 1'b0; end
-		4'b0001 : begin Din = 1'b0; end
+		4'b0001 : begin Din = 1'b1; end
 		4'b0010 : begin Din = 1'b0; end
-		4'b0011 : begin Din = 1'b0; end
-		4'b0100 : begin Din = 1'b1; end
+		4'b0011 : begin Din = 1'b1; end
+		4'b0100 : begin Din = 1'b0; end
 		4'b0101 : begin Din = 1'b1; end
-		4'b0110 : begin Din = 1'b1; end
+		4'b0110 : begin Din = 1'b0; end
 		4'b0111 : begin Din = 1'b1; end
-		4'b1000 : begin Din = 1'b1; end
-		4'b1001 : begin Din = 1'b0; end
+		4'b1000 : begin Din = 1'b0; end
+		4'b1001 : begin Din = 1'b1; end
 		4'b1010 : begin Din = 1'b0; end
-		4'b1011 : begin Din = 1'b0; end
-		4'b1100 : begin Din = 1'b1; end
-		4'b1101 : begin Din = 1'b0; end
+		4'b1011 : begin Din = 1'b1; end
+		4'b1100 : begin Din = 1'b0; end
+		4'b1101 : begin Din = 1'b1; end
 		4'b1110 : begin Din = 1'b0; end
-		4'b1111 : begin Din = 1'b0; end
+		4'b1111 : begin Din = 1'b1; end
 		default : begin Din = 1'b0; end
 	endcase
 	end
@@ -64,6 +64,6 @@ module lab4_part4_TB;
         $dumpfile("TB.vcd");
         $dumpvars(0, lab4_part4_TB);
         
-        #1000 $finish;
+        #10000 $finish;
     end
 endmodule
