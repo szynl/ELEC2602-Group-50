@@ -3,7 +3,7 @@
 ## Essential (50%)
 ### Quizzes
 * must score 80% or more on 3 quizzes
-* short Canvas quiz on Logic Gates/Simplification (Week 4 onwards)
+* ~~short Canvas quiz on Logic Gates/Simplification (Week 4 onwards)~~
 * short Canvas quiz on Flip-flops, Registers, Simple Datapaths (Week 6 onwards)
 * short quiz on FSM design (Week 9 onwards)
 
@@ -12,14 +12,18 @@
 * basic FSM implementation in Verilog (Week 7 onwards)
 
 ### Lab completion
-* exercise 2 (after passing basic lab test)
+* ~~exercise 2 (after passing basic lab test)~~
   * ~~part 1~~
   * ~~part 2~~
   * ~~part 3~~
-  * part 4
-  * part 5
-  * part 6
+  * ~~part 4~~
+  * ~~part 5~~
+  * ~~part 6~~
 * exercise 3 (after passing basic lab test)
+ * ~~part 1~~
+ * ~~part 2~~
+ * part 3
+ * part 4
 * exercise 4 (after passing basic lab test)
 * exercise 5 (after passing basic lab test)
 * exercises 6 (after passing FSM test)
