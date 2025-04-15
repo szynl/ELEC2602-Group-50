@@ -22,7 +22,7 @@
 * exercise 3 (after passing basic lab test)
   * ~~part 1~~
   * ~~part 2~~
-  * part 3
+  * ~~part 3~~
   * part 4
 * exercise 4 (after passing basic lab test)
 * exercise 5 (after passing basic lab test)
