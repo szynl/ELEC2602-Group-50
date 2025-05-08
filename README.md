@@ -19,17 +19,23 @@
   * ~~part 4~~
   * ~~part 5~~
   * ~~part 6~~
-* exercise 3 (after passing basic lab test)
+* ~~exercise 3 (after passing basic lab test)~~
   * ~~part 1~~
   * ~~part 2~~
   * ~~part 3~~
-  * part 4
+  * ~~part 4~~
 * exercise 4 (after passing basic lab test)
+  * part 1
+  * part 2
+  * part 3
+  * part 4
+  * part 5
 * exercise 5 (after passing basic lab test)
 * exercises 6 (after passing FSM test)
 
 ### Project
-* implementation of basic processor (as described in lecture) working in simulation
+* implement load, move, add and xor
+* microreport (hierarchical datapath diagram and fsm state diagram)
 
 ## Extension (up to 12%)
 ### Lab completion
