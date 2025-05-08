@@ -10,7 +10,7 @@ module toggleflip (enable, clock, clear, Q, Qnot);
         Qnot = 1;
     end
 
-    always @ (posedge clock or posedge clear or negedge clock) begin
+    always @ (posedge clock or posedge clear) begin
         if (clear) begin
             Q <= 0;
             Qnot <= 1;
