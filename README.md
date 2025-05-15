@@ -9,7 +9,7 @@
 
 ### Lab tests
 * ~~basic combinational logic design in Verilog (Week 3 onwards)~~
-* basic FSM implementation in Verilog (Week 7 onwards)
+* basic FSM implementation in Verilog (Week 7 onwards) - **possibly removed?**
 
 ### Lab completion
 * ~~exercise 2 (after passing basic lab test)~~
